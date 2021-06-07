@@ -1,0 +1,7 @@
+Training:
+
+python train.py --img 1280 --batch 2 --epochs 300 --data bosch.yaml --cfg yolov5s.yaml --weights weights\best.pt
+
+Testing:
+
+python detect.py --weights weights/model.pt --img 1280 --source testing_data/
